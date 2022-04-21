@@ -1,6 +1,6 @@
 .container{
     display: grid;
-    grid-template-rows:106px,769px,689px,auto;
+    grid-template-rows:106px,769px,689px,174px,auto;
     grid-template-areas:"navigation"
     "header"
     "services"
@@ -56,7 +56,17 @@
 }
 .counselingCenter{
     grid-area: counselingCenter;
-    background-color: purple;
+    
+    height: 174px;
+    background-image: url("../Files/images/planner\ book\ back.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
 }
 .baner1{
     grid-area: baner1;
@@ -128,7 +138,7 @@ ul {
 }
 .btn--icon--shop{
     background-color: var(--d3deef);
-    margin-right: 2.5rem;
+    margin-right: 1.5rem;
 
 }
 .btn--icon--user{
@@ -282,4 +292,39 @@ ul {
       background-color: var(--primery);
       color: var(--white);
       margin-top: 20px;
+  }
+  /* counselingCenter */
+  .con--cou--img--h1{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+  }
+  .cou--img{
+      width: 36px;
+      height: 30px;
+  }
+  .h1--cou{
+      font-size: 2rem;
+      color: var(--white);
+      margin-right: 15px;
+  }
+  .btn--cou{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 243px;
+      height: 56px;
+      border-radius: 8px;
+      opacity: 1;
+      border: 0;
+      color: var(---3E3E3E);
+
+  }
+  .img--enter{
+    width: 16.9px;
+    height: 14.26px;
+    margin-right: 10px;
   }
