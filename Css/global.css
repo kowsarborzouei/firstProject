@@ -3,3 +3,5 @@
 @import url("css.css");
 @import url("../Files/fonts/WebFonts/css/style.css");
 @import url("../Files/fonts/WebFonts/css/fontiran.css");
+@import url("../Scss/style.scss");
+@import url("../Scss/variables.scss");
