@@ -84,7 +84,7 @@
 }
 .newNews{
     grid-area: newNews;
-    background-color: bisque;
+    background-color: var(---F4F4F4);
     height: 844px;
 }
 .instagram{
@@ -351,7 +351,6 @@ ul {
   }
   .grid--baner1{
     display: grid;
-    
     grid-template:auto;
     grid-template-areas:"img3 img4 img1 img2"
     "img3 img4 img5 img6";
@@ -623,4 +622,97 @@ ul {
     color: var(--white);
     direction: ltr;
     margin-left: 29px;
+}
+/* newNews */
+.con--newNews{
+    width: 1084px;
+    margin: 110px auto;
+    display: grid;
+    grid-template:auto;
+    grid-template-areas:"titre titre titre"
+    "cart4 cart1 cart1"
+    "cart4 cart2 cart2"
+    "cart4 cart3 cart3"
+     ;
+     row-gap: 24px;
+     column-gap: 32px;
+}
+.titre{
+    grid-area: titre;
+    background-color: transparent;
+    padding: 0 30px;
+}
+.cart1{
+    grid-area: cart1;
+    background-color: aquamarine;
+    width: 526px;
+    height: 161px;
+}
+.cart2{
+    grid-area: cart2;
+    background-color: blueviolet;
+    width: 526px;
+    height: 161px;
+}
+.cart3{
+    grid-area: cart3;
+    background-color: blue;
+    width: 526px;
+    height: 161px;
+}
+.cart4{
+    grid-area: cart4;
+    background-color: chartreuse;
+    width: 524px;
+    height: 529px;
+    background-image: url(../Files/images/tabreak.jpeg);
+    background-position: center;
+    background-size: contain;
+}
+.style--cart{
+    border-radius: 16px;
+}
+.con--titre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.p--titre--left{
+    font-size: 1rem;
+    color: var(---3181FF);
+}
+.h1--titre--right{
+    font-size: 2rem;
+    color: var(---3D3D3D);
+    margin-right: 20px;
+}
+.con--titre--right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.con--cart4{
+    opacity: 0.9;
+    background-color: var(--white);
+    height: 184px;
+    backdrop-filter: blur(50px);
+    border-radius: 0px 0px 16px 16px;
+    margin-top: 345px;
+    padding: 40px;
+    box-sizing: border-box;
+  
+
+}
+.cart4-span-right{
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: var(---17263D);
+   
+}
+.cart4-span-left{
+    font-size: 1rem;
+    color: var(---22385b);
+    
 }
