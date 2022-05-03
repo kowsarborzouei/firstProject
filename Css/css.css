@@ -79,28 +79,43 @@
 }
 .consultant{
     grid-area: consultant;
-    background-color: palevioletred;
-    height: 593px;
+    background-color: var(---E4E3E8);
+    z-index: 3;
 }
 .newNews{
     grid-area: newNews;
     background-color: bisque;
+    height: 844px;
 }
 .instagram{
     grid-area: instagram;
-    background-color: aquamarine;
+    background: linear-gradient(90deg, rgba(206,62,111,1) 35%, rgba(242,116,60,1) 100%);
+    height: 129px;
 }
 .baner2{
     grid-area: baner2;
-    background-color: yellow;
+    background-color: var(---F4F4F4);
+    height: 510px;
 }
 .footer{
     grid-area: footer;
-    background-color:paleturquoise ;
+    background-color:var(---22385b) ;
+    height: 510px;
+   
 }
 .copy{
     grid-area: copy;
-    background-color: brown;
+    background-color:var(---EBEBEB);
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.8125rem;
+    letter-spacing: 0.39px;
+    font-weight: bold;
+    color: var(---3D3D3D);
+    
 }
 ul {
     list-style-type: none;
@@ -275,6 +290,7 @@ ul {
       justify-content: center;
       align-items: center;
   }
+
   .img--inro{
       width: 583px;
       height: 617px;
@@ -458,3 +474,153 @@ ul {
   .icon-heart:before {
     content: "\e9da";
   }
+  /* consultant */
+  .img--text--consultant{
+    max-width: 1085px;
+    height: 593px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+    align-items: center;
+    background-image: url("../Files/images/consultant\ yourself\ hompage-min.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    z-index: 10;
+}
+.h1--consultant{
+    font-size: 2.25rem;
+    color: var(---555555);
+}
+.p--consultant{
+    font-size: 1.125rem;
+    color: var(---555555);
+    margin-top: 56px;
+    padding-right:57.33px ;
+    line-height: 36px;
+}
+.btn--consultant{
+    width: 142px;
+    height: 48px;
+    border-radius: 8px;
+    border: 0;
+    font-size: 0.785rem;
+    background-color: var(--primery);
+    color: var(--white);
+    margin-top: 40px;
+}
+.con--consultant{
+    text-align: left;
+    width: 505px;
+    height: 330px;
+}
+
+/* footer */
+.link--footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:start ;
+    align-items: center;
+}
+.p--footer{
+    font-size: 1rem;
+    color: var(--white);
+    line-height: 32px;
+   
+}
+.p--link{
+    font-size: 1.125rem;
+    color: var(--white);
+}
+.container--footer{
+    width: 1084px;
+    height: 263px;
+    margin: 131px auto auto auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    
+}
+.icon--ion{
+    padding: 15.5px 15.5px 4px 15.5px;
+    border-radius: 100%;
+    background-color: var(--white);
+    margin-left: 20px;
+    font-size: 16.67px;
+    color: var(---3F3F3F);
+    padding-bottom: -15px;
+    
+}
+.right--link{
+    margin-left: 160px;
+}
+.con--icon{
+    margin-top: 40px;
+}
+.h1--footer{
+    color:var(--white);
+}
+.h2--footer{
+    color:var(--white);
+}
+/* baner2 */
+.con--baner2{
+    width: 1084px;
+    height: 282px;
+    background-image: url(../Files/images/planner\ book.png),url(../Files/images/planner\ book\ back.png);
+    background-repeat: no-repeat;
+    background-position: left,center;
+    background-size: contain;
+    margin: 114px auto ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    padding: 55px 70px 55px 615px ;
+    box-sizing: border-box;
+}
+.btn--baner2{
+    width: 142px;
+    height: 48px;
+    border-radius: 4px;
+    outline: none;
+    border: 0;
+    background-color: var(--primery);
+    color: var(--white);
+    margin-top: 20px;
+}
+.p--baner2{
+    color: var(---17263D);
+    line-height: 26px;
+}
+.h1--baner2{
+    color: var(---17263D);
+}
+/* instagram */
+.con--insta{
+    width: 1084px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin:20px auto;
+    
+}
+.insta--left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.p--insta{
+    font-size: 1.75rem;
+    color: var(--white);
+}
+.h1--insta{
+    font-size: 2.25;
+    color: var(--white);
+    direction: ltr;
+    margin-left: 29px;
+}
