@@ -1,0 +1,41 @@
+/* introduction */
+.con--introduction{
+      
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  
+}
+.img--intro{
+  max-width: 1085px;
+  margin: 73px auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.img--inro{
+    width: 583px;
+    height: 617px;
+    align-items: flex-end;
+}
+.p--intro{
+    font-size:1.125rem ;
+    color: var(---3D3D3D);
+    line-height: 36px;
+}
+.h1--intro{
+    font-size: 2.5rem;
+}
+.btn--intro{
+    width: 162px;
+    height: 48px;
+    border-radius: 8px;
+    outline: none;
+    border: 0;
+    background-color: var(--primery);
+    color: var(--white);
+    margin-top: 20px;
+}

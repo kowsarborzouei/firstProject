@@ -1,0 +1,150 @@
+/* counselingCenter */
+.con--cou--img--h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: -10;
+
+}
+.cou--img{
+    width: 36px;
+    height: 30px;
+}
+.h1--cou{
+    font-size: 2rem;
+    color: var(--white);
+    margin-right: 15px;
+}
+.btn--cou{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 243px;
+    height: 56px;
+    border-radius: 8px;
+    opacity: 1;
+    border: 0;
+    color: var(---3E3E3E);
+
+}
+.img--enter{
+  width: 16.9px;
+  height: 14.26px;
+  margin-right: 10px;
+}
+.grid--baner1{
+  display: grid;
+  grid-template:auto;
+  grid-template-areas:"img3--baner1 img4--baner1 img1--baner1 img2--baner1"
+  "img3--baner1 img4--baner1 img5--baner1 img6--baner1";
+  row-gap: 31px;
+  column-gap: 32px;
+
+}
+.img1--baner1{
+    grid-area: img1--baner1;
+    width: 247px;
+    height: 253px;
+    border-radius: 16px;
+    background-image: url(../Files/images/good\ reading-min.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.color{
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: end;
+}
+.back--color1{
+  background-color:  var(---8B4736);
+
+}
+
+.img2--baner1{
+    grid-area: img2--baner1;
+    width: 247px;
+    height: 253px;
+    border-radius: 16px;
+    background-image: url(../Files/images/planing-min.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+  
+}
+.icon-calendar:before {
+  content: "\e903";
+}
+.back--color2{
+  background-color:  var(---AC9D29);
+}
+
+.img3--baner1{
+    grid-area: img3--baner1;
+    width: 247px;
+    height: 537px;
+    border-radius: 16px;
+    background-image: url(../Files/images/girl-granola-honey-blue-white-natural-min.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.back--color3{
+  background-color:  var(---22744F);
+}
+
+.img4--baner1{
+    grid-area: img4--baner1;
+   
+    width: 247px;
+    height: 537px;
+    border-radius: 16px;
+    background-image: url(../Files/images/crop-hand-with-vintage-compass-min.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.back--color4{
+  background-color:  var(---106883);
+}
+.img5--baner1{
+    grid-area: img5--baner1;
+    width: 247px;
+    height: 253px;
+    border-radius: 16px;
+    background-image: url(../Files/images/archive-min.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.back--color5{
+  background-color:  var(---4A2546);
+}
+.img6--baner1{
+    grid-area: img6--baner1;
+    width: 247px;
+    height: 253px;
+    border-radius: 16px;
+    background-image: url(../Files/images/exam-min.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.back--color6{
+  background-color:  var(---246053);
+}
+.p--baner{
+    font-size: 1.5rem;
+    color: var(--white);
+}
+.icon-heart:before {
+  content: "\e9da";
+}

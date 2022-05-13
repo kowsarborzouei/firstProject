@@ -1,0 +1,57 @@
+/* consultant */
+.img--text--consultant{
+    max-width: 1085px;
+    height: 593px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    z-index: 10;
+}
+.img--consultant{
+    height: 670px;
+    width: 1084px;
+    /* background-color:aqua; */
+    margin-bottom: 75px;
+    background-image: url("../Files/images/consultant\ yourself\ hompage-min.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content:end;
+    align-items: center;
+}
+.h1--consultant{
+    font-size: 2.25rem;
+    color: var(---555555);
+}
+.p--consultant{
+    font-size: 1.125rem;
+    color: var(---555555);
+    margin-top: 56px;
+    /* padding-right:57.33px ; */
+    line-height: 36px;
+    width: 505px;
+    height: 145px;
+}
+.btn--consultant{
+    width: 142px;
+    height: 48px;
+    border-radius: 8px;
+    border: 0;
+    font-size: 0.785rem;
+    background-color: var(--primery);
+    color: var(--white);
+    margin-top: 40px;
+}
+.con--consultant{
+    text-align: left;
+    width: 505px;
+    height: 330px;
+    /* background-color: blueviolet; */
+    z-index: 50;
+    margin-right: -95px;
+}

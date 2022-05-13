@@ -1,0 +1,73 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    display: flex;
+  }
+  
+  li {
+    display: inline;
+    margin-left: 1rem;
+    font-size: 1rem;
+  }
+.btn--search{
+    width: 115px;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid var(---8E8E8E);
+    background-color: var(--white);
+    color: var(--aaaaaa);
+    opacity: 1;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn--size{
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    border: 0;
+    outline: 0;
+    
+
+}
+.btn--nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.btn--icon--shop{
+    background-color: var(--d3deef);
+    margin-right: 1.5rem;
+
+}
+.btn--icon--user{
+    background-color: var(--primery);
+    margin-right: 1rem;
+}
+.con-nav{
+    max-width: 1085px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.logo{
+    background:transparent;
+    width: 48px;
+    height: 48px;
+}
+.ico-search{
+    color: var(---3E3E3E);
+}
+.main--page{
+    border-bottom: 3px solid var(--primery);
+    color: var(--primery);
+    font-weight: bold;
+}
+.ico-bag{
+    color: var(--primery);
+}

@@ -1,0 +1,26 @@
+/* instagram */
+.con--insta{
+    width: 1084px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin:20px auto;
+    
+}
+.insta--left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.p--insta{
+    font-size: 1.75rem;
+    color: var(--white);
+}
+.h1--insta{
+    font-size: 2.25;
+    color: var(--white);
+    direction: ltr;
+    margin-left: 29px;
+}
