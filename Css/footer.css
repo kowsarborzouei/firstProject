@@ -10,7 +10,6 @@
     font-size: 1rem;
     color: var(--white);
     line-height: 32px;
-   
 }
 .p--link{
     font-size: 1.125rem;
@@ -21,10 +20,7 @@
     height: 263px;
     margin: 131px auto auto auto;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-
-    
 }
 .icon--ion{
     padding: 15.5px 15.5px 4px 15.5px;

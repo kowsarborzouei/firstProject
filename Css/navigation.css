@@ -28,20 +28,15 @@ ul {
     border-radius: 8px;
     border: 0;
     outline: 0;
-    
-
 }
 .btn--nav{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center; 
 }
 .btn--icon--shop{
     background-color: var(--d3deef);
     margin-right: 1.5rem;
-
 }
 .btn--icon--user{
     background-color: var(--primery);
